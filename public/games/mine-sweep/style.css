@@ -1,0 +1,55 @@
+.mine-grid {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 5px;
+  background: #111115;
+  user-select: none;
+}
+
+.cell {
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: #26262e;
+  color: #f4f4f6;
+  font-family: ui-monospace, SFMono-Regular, monospace;
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.cell:hover:not(.revealed) {
+  background: #32323c;
+}
+
+.cell.revealed {
+  background: #18181d;
+  border-color: rgba(255, 255, 255, 0.05);
+  cursor: default;
+}
+
+.cell.flagged {
+  color: #f97316;
+}
+
+.cell.mine {
+  background: #ea580c;
+  color: #0d0d0f;
+}
+
+.n1 { color: #fdba74; }
+.n2 { color: #fb923c; }
+.n3 { color: #f97316; }
+.n4 { color: #f59e0b; }
+.n5, .n6, .n7, .n8 { color: #ef4444; }
+
+.flag-active {
+  background: #f97316 !important;
+  color: #0d0d0f !important;
+  border-color: #f97316 !important;
+}

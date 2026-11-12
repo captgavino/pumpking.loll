@@ -1,0 +1,6 @@
+{
+  "name": "Ember Arcade",
+  "description": "A dark and orange themed unblocked browser games portal featuring instant-play HTML5 arcade, reaction, and puzzle games.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

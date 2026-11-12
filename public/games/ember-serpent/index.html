@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ember Serpent</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="shell">
+    <div class="hud">
+      <div class="stat">Score <strong id="score">0</strong></div>
+      <div class="stat">Best <strong id="best">0</strong></div>
+      <button id="pauseBtn" type="button" class="btn-secondary">Pause</button>
+    </div>
+
+    <div class="stage">
+      <canvas id="canvas" width="460" height="460"></canvas>
+      <div id="overlay" class="overlay">
+        <h1 id="overlayTitle">Ember Serpent</h1>
+        <p id="overlayDesc">Collect energy cores to grow. Gold diamonds award 30 bonus points.</p>
+        <button id="startBtn" type="button" class="btn-primary">Start Game</button>
+      </div>
+    </div>
+
+    <div class="dpad" aria-label="Touch controls">
+      <div></div>
+      <button type="button" data-dir="up" aria-label="Up">▲</button>
+      <div></div>
+      <button type="button" data-dir="left" aria-label="Left">◀</button>
+      <button type="button" data-dir="down" aria-label="Down">▼</button>
+      <button type="button" data-dir="right" aria-label="Right">▶</button>
+    </div>
+  </div>
+  <script src="./game.js"></script>
+</body>
+</html>

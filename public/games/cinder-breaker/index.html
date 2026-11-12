@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cinder Breaker</title>
+  <link rel="stylesheet" href="../shared.css" />
+</head>
+<body>
+  <div class="shell">
+    <div class="hud">
+      <div class="hud-group">
+        <div class="stat">Score <strong id="score" class="accent">0</strong></div>
+        <div class="stat">Best <strong id="best">0</strong></div>
+        <div class="stat">Lives <strong id="lives">3</strong></div>
+        <div class="stat">Level <strong id="level">1</strong></div>
+      </div>
+      <button id="pauseBtn" type="button" class="btn-secondary">Pause</button>
+    </div>
+
+    <div class="stage">
+      <canvas id="canvas" width="560" height="400"></canvas>
+      <div id="overlay" class="overlay">
+        <h1 id="overlayTitle">Cinder Breaker</h1>
+        <p id="overlayDesc">Move your mouse or use Arrow keys to deflect the ember orb and break all brick rows.</p>
+        <button id="startBtn" type="button" class="btn-primary">Start Game</button>
+      </div>
+    </div>
+  </div>
+  <script src="../theme-sync.js"></script>
+  <script src="./game.js"></script>
+</body>
+</html>

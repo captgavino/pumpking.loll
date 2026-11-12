@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mine Sweep</title>
+  <link rel="stylesheet" href="../shared.css" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="shell narrow">
+    <div class="hud">
+      <div class="stat">Mines <strong id="minesLeft">10</strong></div>
+      <button id="flagBtn" type="button" class="btn-secondary">Flag Mode: Off</button>
+      <div class="stat">Time <strong id="timer" class="accent">0s</strong></div>
+    </div>
+
+    <div class="stage">
+      <div id="grid" class="mine-grid"></div>
+      <div id="overlay" class="overlay hidden">
+        <h1 id="overlayTitle">Mine Detonated</h1>
+        <p id="overlayDesc"></p>
+        <button id="againBtn" type="button" class="btn-primary">Play Again</button>
+      </div>
+    </div>
+  </div>
+  <script src="../theme-sync.js"></script>
+  <script src="./game.js"></script>
+</body>
+</html>

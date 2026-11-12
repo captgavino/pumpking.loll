@@ -1,0 +1,57 @@
+[
+  {
+    "id": "ember-serpent",
+    "title": "Ember Serpent",
+    "category": "Arcade",
+    "description": "Steer the serpent across the grid, collect energy cores, and build speed combos without hitting walls.",
+    "controls": "Arrow Keys / WASD to steer · Space to pause",
+    "thumbnail": "/images/game_ember_serpent_1794519403362.jpg",
+    "iframeUrl": "/games/ember-serpent/index.html",
+    "featured": true
+  },
+  {
+    "id": "cinder-breaker",
+    "title": "Cinder Breaker",
+    "category": "Arcade",
+    "description": "Shatter layered armored brick formations with angled paddle deflections and rising ball velocity.",
+    "controls": "Mouse or A/D / Left-Right Arrows to move paddle",
+    "thumbnail": "/images/game_cinder_breaker_1794519402943.jpg",
+    "iframeUrl": "/games/cinder-breaker/index.html"
+  },
+  {
+    "id": "forge-2048",
+    "title": "2048 Forge",
+    "category": "Puzzle",
+    "description": "Slide matching tiles across the 4x4 matrix to forge the 2048 core with full move undo support.",
+    "controls": "Arrow Keys / WASD or Swipe to slide tiles",
+    "thumbnail": "/images/game_forge_2048_1794519403240.jpg",
+    "iframeUrl": "/games/forge-2048/index.html"
+  },
+  {
+    "id": "solar-dodger",
+    "title": "Solar Dodger",
+    "category": "Reaction",
+    "description": "Pilot your delta craft through asteroid barrages while harvesting high-value solar orbs in the arena.",
+    "controls": "Mouse Pointer or WASD / Arrows to pilot",
+    "thumbnail": "/images/game_solar_dodger_1794519403778.jpg",
+    "iframeUrl": "/games/solar-dodger/index.html"
+  },
+  {
+    "id": "volt-flappy",
+    "title": "Volt Thruster",
+    "category": "Arcade",
+    "description": "Thread industrial reactor pillars with crisp one-button thrust physics and responsive momentum.",
+    "controls": "Space / Up Arrow / Click to fire thrusters",
+    "thumbnail": "/images/game_volt_flappy_1794519404483.jpg",
+    "iframeUrl": "/games/volt-flappy/index.html"
+  },
+  {
+    "id": "mine-sweep",
+    "title": "Mine Sweep",
+    "category": "Puzzle",
+    "description": "Clear the 9x9 hazard grid by deducing hidden mines from adjacent tile counts as fast as possible.",
+    "controls": "Left-click to reveal · Right-click or Flag Mode to mark",
+    "thumbnail": "/images/game_mine_sweep_1794519404263.jpg",
+    "iframeUrl": "/games/mine-sweep/index.html"
+  }
+]
